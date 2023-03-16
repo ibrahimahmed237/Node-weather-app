@@ -16,7 +16,8 @@ const getForecast = (latitude,longitude,callback) =>
             callback(undefined, {
               description: body.current.weather_descriptions[0],
               temperature: body.current.temperature,
-              feelsLike: body.current.feelslike
+              feelsLike: body.current.feelslike,
+              time: body.location.localtime,
             });
         }
     });

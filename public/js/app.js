@@ -19,7 +19,7 @@ weatherForm.addEventListener("submit", (e) => {
       }
 
       messageOne.textContent = data.address;
-      messageTwo.textContent = `Description: ${data.forecastData.description}, Temperature: ${data.forecastData.temperature} C, Feels like ${data.forecastData.feelsLike} C `;
+      messageTwo.textContent = `Description: ${data.forecastData.description}, Temperature: ${data.forecastData.temperature} C, Feels like ${data.forecastData.feelsLike} C, Time: ${data.forecastData.time} `;
     });
   });
 });
