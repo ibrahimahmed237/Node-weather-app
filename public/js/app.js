@@ -11,7 +11,8 @@ weatherForm.addEventListener("submit", (e) => {
   messageTwo.textContent = "";
 
   fetch(
-    "http://localhost:3000/weather?address=" + encodeURIComponent(location)
+    "https://weather-app-y2yz.onrender.com/weather?address=" +
+      encodeURIComponent(location)
   ).then((response) => {
     response.json().then((data) => {
       if (data.error) {
