@@ -23,6 +23,10 @@ You can get wearther information for city using this link: https://weather-app-y
 - Handlebars 
 - Mapbox 
 - Weatherstack
+
+## Screenshots
+![weather app](https://github.com/ibrahimahmed237/node-weather-app/assets/74437946/a3410880-e37c-47b8-8d39-14a150faee9e)
+
 ## Contributing
 
 If you would like to contribute to the project, feel free to submit a pull request. Please make sure to follow the existing code style and include tests for any new functionality.
